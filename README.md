@@ -34,7 +34,7 @@ This part of the project is broken down into multiple steps:
 After we have built and trained a deep neural network on the flower data set, it's time to convert it into an application that others can use. The application is a Python script that runs from the command line. For testing, we would use the saved Keras model that has been saved in the first part.
 
 ### Specifications
-The [**predict.py file**](predict.py) uses [the saved trained network](my_model.h5) to predict the class for an input image. It should predict the top flower names from an image along with their corresponding probabilities also.
+The **[predict.py](predict.py) file** uses [the saved trained network](my_model.h5) to predict the class for an input image. It should predict the top flower names from an image along with their corresponding probabilities also.
 
 **Basic usage:**
 ```
@@ -72,7 +72,7 @@ $ python predict.py ./test_images/orchid.jpg my_model.h5 --top_k 3
   ```
 
 # Images for Testing
-In the Command Line Interface workspace, there are 4 images provided in the [```./test_images/ folder```](test_images/) for you to check your ```predict.py``` module. The 4 images are:
+In the Command Line Interface workspace, there are 4 images provided in the [```./test_images/```](test_images/) folder for you to check your ```predict.py``` module. The 4 images are:
 - cautleya_spicata.jpg
 - hard-leaved_pocket_orchid.jpg
 - orange_dahlia.jpg
