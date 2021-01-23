@@ -4,6 +4,7 @@ In this project, we will first develop code for an image classifier built with T
 We'll be using [this dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html) from Oxford of 102 flower categories. The data for this project is quite large - in fact, it is so large that you cannot upload it onto Github.
 
 # Requirements
+The project requires **Python 3.x** and the following Python libraries installed :
 - [TensorFlow](https://www.tensorflow.org/)
 - [NumPy](http://www.numpy.org/)
 - [matplotlib](http://matplotlib.org/)
